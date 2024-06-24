@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<script>
+    window.onload = function() {
+      var currentYear = new Date().getFullYear();
+      var copyright = document.querySelector('.Rechten');
+      copyright.innerHTML = "&copy; " + currentYear + " Xiam's website. Alle rechten voorbehouden.";
+    };
+</script>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="icon" type="image" href="/Afbeeldingen/logo2.png">
+
+    <div id="/Sites/header.html"></div>
+    <script>
+        fetch('/Sites/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('/Sites/header.html').innerHTML = data;
+            });
+    </script>
+
+</head>
+<body>
+     
+        <h1 class="Welkom">Welkom op mijn website!</h1>
+        <p class="T2">Wat leuk dat je even komt kijken</p>
+        <img src="../Afbeeldingen/Xiam.png" alt="Hier hoort een Afbeelding te komen met mijn hoofd er op!" class="IMG1">
+        <div class="WLK_TXT">
+            <p >Welkom op mijn website! Hier vertel ik graag over mijn leven en de projecten die ik doe of ga doen.
+
+                Even voorstellen: Ik ben Xiam Schurink, geboren en getogen in Leeuwarden, Friesland. Op 2 april 2007 zag ik eindelijk het daglicht in het Medisch Centrum Leeuwarden, beter bekend als het MCL. Momenteel ben ik 17 jaar oud en werk ik met veel plezier in een kaasgroothandel, waar ik ook in de winkel te vinden ben.
+            </p>
+            <p class="wit-regel">t</p>
+            <p class="wit-regel">t</p>
+            <p class="wit-regel">t</p>
+            <p class="wit-regel">t</p>
+        
+            <a href="https://gitlab.com/xiamprojects">
+                <h1>Gitlab!</h1>
+            </a>
+            <p class="wit-regel">t</p>
+            <p>
+                GitLab is een toffe online tool voor DevOps. Het wordt door allerlei grote bedrijven gebruikt, zoals NASA, Alibaba, CERN, GNOME en SpaceX.
+            </p>
+            <p class="wit-regel">1</p>
+            <p>
+                GitLab is open source, wat betekent dat iedereen die dat wil toegang heeft tot de broncode. 
+                Hierdoor is het mogelijk om de software aan te passen naar eigen wens. Het voordeel van open source software is dat iedereen bij de code kan, 
+                waardoor eventuele fouten sneller worden opgemerkt en verholpen dan bij gesloten software.
+            
+            </p>
+            <p class="wit-regel">1</p>
+            
+            <p>
+                Als je nu geïnteresseerd bent geraakt in mijn pagina, kun je op het woord "GitLab" klikken.
+            </p>
+            
+
+
+        </div>
+    
+        <footer>
+            <p class="Rechten"></p>
+        </footer>
+
+</body>
+</html>

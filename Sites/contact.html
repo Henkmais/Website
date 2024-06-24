@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<script>
+    window.onload = function() {
+      var currentYear = new Date().getFullYear();
+      var copyright = document.querySelector('.Rechten');
+      copyright.innerHTML = "&copy; " + currentYear + " Xiam's website. Alle rechten voorbehouden.";
+    };
+  </script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact pagina</title>
+    <link rel="stylesheet" href="../CSS/style-contact.css">
+    <link rel="icon" type="image" href="../Afbeeldingen/logo2.png"></head>
+<body>
+    <div id="header.html"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header.html').innerHTML = data;
+            });
+    </script>
+    
+    <main>
+
+        <div class="Contact_Opnemen">
+            <h2 class="CTP1">
+                Contact opnemen?
+            </h2>
+            <p class="CTP2">
+                Neem contact op met Xiam Schurink
+            </p>
+
+        </div>
+
+        <div class="Contact_Opname">
+            <div>
+                <h6>Contact</h6>
+                <p>T: 06 -38 92 93 33<br>
+                E:&nbsp;<a href="mailto:xschurink@outlook.com">Stuur een e-mail</a>
+                </p>
+            </div>
+
+            
+
+        </div>
+    
+    </main>
+
+
+    <footer>
+        <p class="Rechten"></p>
+    </footer>
+</body>
+</html>

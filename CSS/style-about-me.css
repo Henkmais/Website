@@ -1,0 +1,79 @@
+body{
+    background-color: #22262a
+
+}
+*{
+    margin: 0;
+    
+}
+header{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(161,18,54,255);
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    float: right;
+    line-height: 150%;
+    margin-right: 30px;
+
+}
+
+a{
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.Rechten{
+    position: absolute; 
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
+    color: white;
+}
+
+.Welkom{
+    position: absolute; 
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
+    margin-top: 35px;
+    color: white;
+}
+
+.IMG1{
+    padding-top: 9%;    
+    width: 20%;
+    height: 20%;
+    padding-left: 100px;    
+}
+
+.IMG2{
+    padding-top: 9%;    
+    width: 20%;
+    height: 20%;
+    padding-left: 100px;    
+}
+
+.WLK_TXT{ 
+    position: fixed fixed;
+    margin-top: -500px;
+    padding-left: 1000px;
+    -moz-text-align-last: right;
+    text-align-last: center;    
+    padding-right: 30px;
+    color: white;
+   
+}
+.wit-regel{
+    color: #22262a;
+
+
+}

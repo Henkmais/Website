@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me!</title>
+
+    <script>
+        window.onload = function() {
+          var currentYear = new Date().getFullYear();
+          var copyright = document.querySelector('.Rechten');
+          copyright.innerHTML = "&copy; " + currentYear + " Xiam's website. Alle rechten voorbehouden.";
+        };
+      </script>
+    <link rel="stylesheet" href="../CSS/style-about-me.css">
+    <link rel="icon" type="image" href="../Afbeeldingen/logo2.png">
+
+</head>
+<body>
+    <div id="header.html"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header.html').innerHTML = data;
+            });
+    </script>
+    
+    <main>
+        <h1 class="Welkom">About me!</h1>
+        <p>Welkom op mijn about me pagina</p>
+    </main>
+
+    <img src="../Afbeeldingen/Xiam-Kaas-verkoopjb.png" alt="Hier hoort een Afbeelding te komen met mijn hoofd er op!" class="IMG1">
+    <img src="../Afbeeldingen/Joep-Xiam-1.png" alt="Hier hoort een Afbeelding te komen met Joep en Xiam!" class="IMG2">
+    
+    <div class="WLK_TXT">
+        <h2>
+            Welkom op mijn nerdy stukje internet!
+        </h2>
+        </p><p class="wit-regel">t</p>
+
+Ik ben Xiam Schurink, een geboren en getogen tech-fanaticus uit Leeuwarden, Friesland. Geboren op 2 april 2007 en momenteel 17 jaar oud. Doordeweeks hang ik rond op school, maar in mijn vrije tijd (lees: de vakanties en weekenden) vind je me meestal in een kaasgroothandel, waar ik allerlei taken uitvoer - van het finetunen van systemen tot het helpen van klanten in de winkel. Gek genoeg vind ik het echt te gek om te doen!
+</p></p><p class="wit-regel">t</p>
+
+Maar nu over naar mijn échte obsessie: IT! Mijn vader, zelf een IT-guru, heeft me erin gesleept. Het is gewoonweg geniaal hoe machines en mensen kunnen samenwerken, en de eindeloze mogelijkheden van technologie zijn gewoonweg adembenemend! In mijn vrije tijd vind je me vaak achter mijn computer, waar ik graag met servers goochel en aan systemen sleutel. En ja, ik ben ook bezig met een paar projecten op GitLab - mijn digitale speeltuin, zeg maar!
+</p><p class="wit-regel">t</p>
+
+
+Hoewel mijn dagen nu voornamelijk gevuld zijn met school en werk, droom ik stiekem van de dag dat ik mijn eigen IT-imperium kan bouwen. Het lijkt me geweldig om mijn nerd-passie om te zetten in iets groots!
+</p><p class="wit-regel">t</p>
+
+
+Op deze website deel ik mijn avonturen, ideeën en nog veel meer. Bedankt voor het langskomen, en laten we samen dieper in de bits duiken!</p>
+    </div>
+    
+    <footer>
+      <p class="Rechten"></p>
+    </footer>
+</body>
+</html>
